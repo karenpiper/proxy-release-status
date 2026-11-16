@@ -1,14 +1,15 @@
 {
-  "version": "0.6.0",
-  "engineVersion": "0.1.5",
-  "publishedAt": "2026-11-16T23:29:08.944Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.6.0",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.6.0/proxy-0.6.0.zip",
-  "sha256": "2b2a6ed3912274723455bc8a1f2dc16acec6e8877a0a91de4bdbb73989ab9fc9",
+  "version": "0.6.1",
+  "engineVersion": "0.1.6",
+  "publishedAt": "2026-11-16T23:32:32.250Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.6.1",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.6.1/proxy-0.6.1.zip",
+  "sha256": "ace6e6477a98f91a4a295684a5ba9bb5220e5749b950f2e170e0372c744c331d",
   "minimumChromeVersion": "120",
   "notes": [
     "Connects the full evidence-linked persona model to channel choice, page behavior and terminal decisions.",
     "Adds claim review, research-neutral treatments, bounded variation, structured gaps and persona-set comparisons.",
-    "Repairs persona generation so a missing presentation field no longer rejects an otherwise valid evidence model."
+    "Repairs persona generation so a missing presentation field no longer rejects an otherwise valid evidence model.",
+    "Stores new API keys through standard input rather than exposing them in the process list."
   ]
 }
