@@ -1,14 +1,14 @@
 {
-  "version": "0.5.1",
+  "version": "0.5.2",
   "engineVersion": "0.1.0",
-  "publishedAt": "2026-11-16T20:11:56Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.5.1",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.5.1/proxy-0.5.1.zip",
-  "sha256": "3e34c7db74a520077e491f7d82a372ffb902e5eef01c5dc21e019aa7e6c76322",
+  "publishedAt": "2026-11-16T20:19:47Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.5.2",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.5.2/proxy-0.5.2.zip",
+  "sha256": "0016b4eea9f4663a93b619539055a1525014e46a5b02a380f81b8d29584e66bb",
   "minimumChromeVersion": "120",
   "notes": [
-    "Create a new client project directly beside persona-library Sync.",
-    "Fixed Create persona so it opens the builder even when the project is empty.",
-    "Fixed Manage personas so it opens the persona library directly."
+    "Root-folder controls now contain only Choose root and Sync.",
+    "Create new project is now an option inside the Collection or project dropdown.",
+    "New projects still create the expected project/personas folder structure."
   ]
 }
