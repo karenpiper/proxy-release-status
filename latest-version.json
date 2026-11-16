@@ -1,14 +1,14 @@
 {
-  "version": "0.5.3",
+  "version": "0.5.4",
   "engineVersion": "0.1.0",
-  "publishedAt": "2026-11-16T20:37:02Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.5.3",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.5.3/proxy-0.5.3.zip",
-  "sha256": "92a2f9fc876ab522616dcb12fd5497cc678eee2fb34d8c52341f27e4dd709a16",
+  "publishedAt": "2026-11-16T20:44:17Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.5.4",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.5.4/proxy-0.5.4.zip",
+  "sha256": "c55005cc677a5d8b657d8d23f060b7073bddb700f6a0e305d7b8f412160c3a0d",
   "minimumChromeVersion": "120",
   "notes": [
-    "Immediate folders in the selected root now populate the project dropdown, even when empty.",
-    "Project and persona lists refresh directly when Choose root or Sync completes.",
-    "Create new project remains available inside the Collection or project dropdown."
+    "Fixed the startup error that prevented project options and later controls from initializing.",
+    "The dropdown now renders directly from the projects returned by folder sync.",
+    "Create persona and Manage personas now receive their working click handlers."
   ]
 }
