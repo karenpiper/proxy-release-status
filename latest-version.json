@@ -1,14 +1,14 @@
 {
-  "version": "0.4.2",
+  "version": "0.4.3",
   "engineVersion": "0.1.0",
-  "publishedAt": "2026-11-16T19:48:18Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.4.2",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.4.2/proxy-0.4.2.zip",
-  "sha256": "82867d17879797357f08546168007f38034a6c2f854bbd2698bf9addca84a76a",
+  "publishedAt": "2026-11-16T19:54:40Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.4.3",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.4.3/proxy-0.4.3.zip",
+  "sha256": "11c72642e0e55e164caf8988752a71d3903651cbfc73ae0c720c8203d8426f92",
   "minimumChromeVersion": "120",
   "notes": [
-    "Added Check updates directly to the PROXY side panel.",
-    "Added a working Check again action when Persona Studio starts before the local engine.",
-    "Uses GitHub's current public status API to avoid stale version checks."
+    "Replaced the blocked native engine dialog with a reliable interactive overlay.",
+    "Added Delete from PROXY and Restore removed persona controls.",
+    "Preserves source files when removing folder-managed personas."
   ]
 }
