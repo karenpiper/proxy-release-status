@@ -1,14 +1,14 @@
 {
-  "version": "0.5.2",
+  "version": "0.5.3",
   "engineVersion": "0.1.0",
-  "publishedAt": "2026-11-16T20:19:47Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.5.2",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.5.2/proxy-0.5.2.zip",
-  "sha256": "0016b4eea9f4663a93b619539055a1525014e46a5b02a380f81b8d29584e66bb",
+  "publishedAt": "2026-11-16T20:37:02Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.5.3",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.5.3/proxy-0.5.3.zip",
+  "sha256": "92a2f9fc876ab522616dcb12fd5497cc678eee2fb34d8c52341f27e4dd709a16",
   "minimumChromeVersion": "120",
   "notes": [
-    "Root-folder controls now contain only Choose root and Sync.",
-    "Create new project is now an option inside the Collection or project dropdown.",
-    "New projects still create the expected project/personas folder structure."
+    "Immediate folders in the selected root now populate the project dropdown, even when empty.",
+    "Project and persona lists refresh directly when Choose root or Sync completes.",
+    "Create new project remains available inside the Collection or project dropdown."
   ]
 }
