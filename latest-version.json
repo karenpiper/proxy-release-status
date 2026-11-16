@@ -1,0 +1,14 @@
+{
+  "version": "0.4.0",
+  "engineVersion": "0.1.0",
+  "publishedAt": "2026-11-16T19:33:23Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.4.0",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.4.0/proxy-0.4.0.zip",
+  "sha256": "db1524943943553b66832a3de20b67c3cfda75624dce1d0dd1816a0607b3c737",
+  "minimumChromeVersion": "120",
+  "notes": [
+    "Added the local evidence-synthesis engine.",
+    "Added secure macOS Keychain storage for each user's OpenAI project key.",
+    "Connected Persona Studio to evidence extraction, schema validation and portrait generation."
+  ]
+}
