@@ -1,14 +1,14 @@
 {
-  "version": "0.4.1",
+  "version": "0.4.2",
   "engineVersion": "0.1.0",
-  "publishedAt": "2026-11-16T19:41:13Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.4.1",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.4.1/proxy-0.4.1.zip",
-  "sha256": "7127adc60f89e83224299660acbf8fd48bae1f4dbd2595d8a969611fc88283ce",
+  "publishedAt": "2026-11-16T19:48:18Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.4.2",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.4.2/proxy-0.4.2.zip",
+  "sha256": "82867d17879797357f08546168007f38034a6c2f854bbd2698bf9addca84a76a",
   "minimumChromeVersion": "120",
   "notes": [
-    "Added a daily public version check.",
-    "Shows an in-product update banner when a newer private release is available.",
-    "Keeps source code and release downloads private."
+    "Added Check updates directly to the PROXY side panel.",
+    "Added a working Check again action when Persona Studio starts before the local engine.",
+    "Uses GitHub's current public status API to avoid stale version checks."
   ]
 }
