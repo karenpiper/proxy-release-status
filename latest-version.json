@@ -1,14 +1,14 @@
 {
-  "version": "0.4.3",
+  "version": "0.5.0",
   "engineVersion": "0.1.0",
-  "publishedAt": "2026-11-16T19:54:40Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.4.3",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.4.3/proxy-0.4.3.zip",
-  "sha256": "11c72642e0e55e164caf8988752a71d3903651cbfc73ae0c720c8203d8426f92",
+  "publishedAt": "2026-11-16T20:02:33Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.5.0",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.5.0/proxy-0.5.0.zip",
+  "sha256": "a55e9019e728f7f9ec4a10ce00f471e4402c5f711668655d7db2772ea260d598",
   "minimumChromeVersion": "120",
   "notes": [
-    "Replaced the blocked native engine dialog with a reliable interactive overlay.",
-    "Added Delete from PROXY and Restore removed persona controls.",
-    "Preserves source files when removing folder-managed personas."
+    "Redesigned setup as a compact four-part progressive flow.",
+    "Added a persistent Start over control that preserves persona libraries and saved downloads.",
+    "Collapsed duplicate personas and reveals Begin journey only after preparation succeeds."
   ]
 }
