@@ -1,14 +1,14 @@
 {
-  "version": "0.5.4",
+  "version": "0.5.5",
   "engineVersion": "0.1.0",
-  "publishedAt": "2026-11-16T20:44:17Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.5.4",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.5.4/proxy-0.5.4.zip",
-  "sha256": "c55005cc677a5d8b657d8d23f060b7073bddb700f6a0e305d7b8f412160c3a0d",
+  "publishedAt": "2026-11-16T20:51:02Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.5.5",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.5.5/proxy-0.5.5.zip",
+  "sha256": "07f7aae9ff1e39445099b64adfd7d584d9f6186b0a3c6e27f902214d22e8d3ca",
   "minimumChromeVersion": "120",
   "notes": [
-    "Fixed the startup error that prevented project options and later controls from initializing.",
-    "The dropdown now renders directly from the projects returned by folder sync.",
-    "Create persona and Manage personas now receive their working click handlers."
+    "Moved all shared side-panel helpers ahead of UI initialization.",
+    "Eliminated the $$ and escapeHtml startup-order errors reported by Chrome.",
+    "Added a release regression check for helper ordering and required control bindings."
   ]
 }
