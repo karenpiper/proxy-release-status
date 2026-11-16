@@ -1,14 +1,14 @@
 {
-  "version": "0.5.6",
+  "version": "0.5.7",
   "engineVersion": "0.1.0",
-  "publishedAt": "2026-11-16T21:04:36Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.5.6",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.5.6/proxy-0.5.6.zip",
-  "sha256": "153e028c0add01bdf85a7e4e01cb4c5fcfe866a3d58928e7ab82bb0b51a16500",
+  "publishedAt": "2026-11-16T21:21:58Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.5.7",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.5.7/proxy-0.5.7.zip",
+  "sha256": "3024a186618c3d48978e7dac201448f29a8339bfb85323420ec541e0d79a9e94",
   "minimumChromeVersion": "120",
   "notes": [
-    "Persona Studio now shows live evidence-extraction, synthesis, validation and portrait progress.",
-    "OpenAI stages have bounded timeouts and source extraction runs in parallel.",
-    "The engine rejects duplicate generation requests instead of silently stacking them."
+    "Optimized the 60% persona-synthesis stage that was exceeding its deadline.",
+    "Reduced unnecessary reasoning and output overhead while preserving the evidence contract.",
+    "Added a visible synthesis heartbeat and a five-minute stage-specific deadline."
   ]
 }
