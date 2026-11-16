@@ -1,14 +1,14 @@
 {
-  "version": "0.5.7",
+  "version": "0.5.8",
   "engineVersion": "0.1.0",
-  "publishedAt": "2026-11-16T21:21:58Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.5.7",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.5.7/proxy-0.5.7.zip",
-  "sha256": "3024a186618c3d48978e7dac201448f29a8339bfb85323420ec541e0d79a9e94",
+  "publishedAt": "2026-11-16T22:06:58Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.5.8",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.5.8/proxy-0.5.8.zip",
+  "sha256": "aa54b3fa222daed32e59eb18d26df1d21bd01369c9464a55686fb16e4621e971",
   "minimumChromeVersion": "120",
   "notes": [
-    "Optimized the 60% persona-synthesis stage that was exceeding its deadline.",
-    "Reduced unnecessary reasoning and output overhead while preserving the evidence contract.",
-    "Added a visible synthesis heartbeat and a five-minute stage-specific deadline."
+    "Safely normalizes completed personas before applying the completion gate.",
+    "Invalid evidence links are removed and disclosed rather than discarding the full persona.",
+    "Any remaining validation failure now names its exact schema or traceability cause."
   ]
 }
