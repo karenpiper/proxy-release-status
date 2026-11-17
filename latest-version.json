@@ -1,15 +1,15 @@
 {
-  "version": "0.6.5",
+  "version": "0.6.6",
   "engineVersion": "0.1.9",
-  "publishedAt": "2026-11-17T01:59:43Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.6.5",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.6.5/proxy-0.6.5.zip",
-  "sha256": "ab4af43217ff0e6c5743f448be7ce52eb7349920bcd09fc4d336b97a178377e2",
+  "publishedAt": "2026-11-17T02:07:21Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.6.6",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.6.6/proxy-0.6.6.zip",
+  "sha256": "37e95a40e4a7bba39f336d166ebe665ad14ba5d9b4167c7a977902c1e71e5452",
   "minimumChromeVersion": "120",
   "notes": [
-    "Fixes project-context saving when a project folder’s real name differs in capitalization, spacing or underscores.",
-    "Reconnects stale root-folder permissions directly from Project Setup without clearing entered fields.",
-    "Requests write access when connecting the project root so project.proxy.json can be saved reliably.",
-    "Retains the AI-assisted brief-to-project setup introduced in 0.6.4."
+    "Creates a project folder automatically when a selected PROXY collection does not yet exist beneath the connected root.",
+    "Saves project.proxy.json beside a newly created personas folder instead of failing with a missing-directory error.",
+    "Treats spaces, hyphens and underscores as equivalent when matching existing project folders.",
+    "Retains the root-folder reconnect recovery added in 0.6.5."
   ]
 }
