@@ -1,15 +1,16 @@
 {
-  "version": "0.8.2",
+  "version": "0.8.3",
   "engineVersion": "0.2.3",
-  "publishedAt": "2026-11-17T06:19:27Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.8.2",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.8.2/proxy-0.8.2.zip",
-  "sha256": "e888b85d7c8a928ca89bb951b60249d85f32e7de4077a067b9f39bd56cd81773",
+  "publishedAt": "2026-11-17T17:28:09Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.8.3",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.8.3/proxy-0.8.3.zip",
+  "sha256": "d9c3b8d31e3ccce1b4e7e8fdb5fc6a46f11a7ab55f1fa4fc4507776192c2f5f9",
   "minimumChromeVersion": "120",
   "notes": [
-    "Fixes quota-exceeded errors when adding multiple image-rich personas.",
-    "Stores each portrait and evidence dossier only once instead of duplicating large data.",
-    "Requests extended local storage for persona libraries and scale-run evidence.",
-    "Retains multi-audience generation, separate GWI interpretation and shared Meltwater context."
+    "Regular Chrome windows are now the default; private mode is an explicit study choice.",
+    "Brand-anchored journeys continue into relevant owned-site exploration instead of stopping at arrival.",
+    "Shopping searches avoid academic homework-result dead ends and use concise product queries.",
+    "Scale runs show live activity and only report success after the first journey actually starts.",
+    "Saved study settings remain authoritative when the side panel closes and reopens."
   ]
 }
