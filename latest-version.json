@@ -1,15 +1,16 @@
 {
-  "version": "0.6.6",
-  "engineVersion": "0.1.9",
-  "publishedAt": "2026-11-17T02:07:21Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.6.6",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.6.6/proxy-0.6.6.zip",
-  "sha256": "37e95a40e4a7bba39f336d166ebe665ad14ba5d9b4167c7a977902c1e71e5452",
+  "version": "0.7.0",
+  "engineVersion": "0.2.0",
+  "publishedAt": "2026-11-17T02:46:08Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.7.0",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.7.0/proxy-0.7.0.zip",
+  "sha256": "e5c907c88ac7b6594610d8408810993bf034e8207c52af72be693e9fa1665d8d",
   "minimumChromeVersion": "120",
   "notes": [
-    "Creates a project folder automatically when a selected PROXY collection does not yet exist beneath the connected root.",
-    "Saves project.proxy.json beside a newly created personas folder instead of failing with a missing-directory error.",
-    "Treats spaces, hyphens and underscores as equivalent when matching existing project folders.",
-    "Retains the root-folder reconnect recovery added in 0.6.5."
+    "Replaces brief upload and blank project forms with guided AI project development inside PROXY.",
+    "Asks plain-language opening questions followed by tailored questions generated from the project.",
+    "Creates a robust durable project foundation that remains editable before saving locally.",
+    "Requires project setup before persona selection when a named project has no project.proxy.json.",
+    "Compiles a bounded runtime view so deep project context does not prescribe the browser journey."
   ]
 }
