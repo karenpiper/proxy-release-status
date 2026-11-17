@@ -1,16 +1,15 @@
 {
-  "version": "0.7.0",
-  "engineVersion": "0.2.0",
-  "publishedAt": "2026-11-17T02:46:08Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.7.0",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.7.0/proxy-0.7.0.zip",
-  "sha256": "e5c907c88ac7b6594610d8408810993bf034e8207c52af72be693e9fa1665d8d",
+  "version": "0.7.1",
+  "engineVersion": "0.2.1",
+  "publishedAt": "2026-11-17T02:58:58Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.7.1",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.7.1/proxy-0.7.1.zip",
+  "sha256": "62d1965d626b426c0f7946c48c42bac1b74a7bbffdc3571e17f61edb799b5b90",
   "minimumChromeVersion": "120",
   "notes": [
-    "Replaces brief upload and blank project forms with guided AI project development inside PROXY.",
-    "Asks plain-language opening questions followed by tailored questions generated from the project.",
-    "Creates a robust durable project foundation that remains editable before saving locally.",
-    "Requires project setup before persona selection when a named project has no project.proxy.json.",
-    "Compiles a bounded runtime view so deep project context does not prescribe the browser journey."
+    "Starts project setup with one ordinary-language description instead of a research brief.",
+    "Presents only consequential project choices with a recommended option and plain-language consequence.",
+    "Allows a free-form alternative for every generated choice.",
+    "Shows one contextual next step: project setup when context is missing, or persona controls when it exists."
   ]
 }
