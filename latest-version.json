@@ -1,15 +1,15 @@
 {
-  "version": "0.8.0",
-  "engineVersion": "0.2.2",
-  "publishedAt": "2026-11-17T03:53:38Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.8.0",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.8.0/proxy-0.8.0.zip",
-  "sha256": "f9c24142bd6e067702ce7f7c2d633b3cf2b8021d3b1e6533ac5b867d69401beb",
+  "version": "0.8.1",
+  "engineVersion": "0.2.3",
+  "publishedAt": "2026-11-17T05:44:41Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.8.1",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.8.1/proxy-0.8.1.zip",
+  "sha256": "d9bd212739f00d5e1e4fe6f6f2aebb5aa0bcc32a30b4d6017abf451191f7d2da",
   "minimumChromeVersion": "120",
   "notes": [
-    "Adds reusable studies inside each client project.",
-    "Adds optional single-journey and persistent scale-run modes.",
-    "Scale runs support 5–50 sequential independent journeys across one or all project personas.",
-    "Scale output prioritizes macro themes while retaining individual evidence in the downloadable package."
+    "Lets researchers select multiple audiences from one upload and generate each as a separate persona.",
+    "Treats segmented GWI evidence separately for each selected audience.",
+    "Treats composite Meltwater research as shared category context rather than direct audience evidence.",
+    "Adds batch review and one-click installation of every generated persona into the selected client project."
   ]
 }
