@@ -1,15 +1,15 @@
 {
-  "version": "0.8.1",
+  "version": "0.8.2",
   "engineVersion": "0.2.3",
-  "publishedAt": "2026-11-17T05:44:41Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.8.1",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.8.1/proxy-0.8.1.zip",
-  "sha256": "d9bd212739f00d5e1e4fe6f6f2aebb5aa0bcc32a30b4d6017abf451191f7d2da",
+  "publishedAt": "2026-11-17T06:19:27Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.8.2",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.8.2/proxy-0.8.2.zip",
+  "sha256": "e888b85d7c8a928ca89bb951b60249d85f32e7de4077a067b9f39bd56cd81773",
   "minimumChromeVersion": "120",
   "notes": [
-    "Lets researchers select multiple audiences from one upload and generate each as a separate persona.",
-    "Treats segmented GWI evidence separately for each selected audience.",
-    "Treats composite Meltwater research as shared category context rather than direct audience evidence.",
-    "Adds batch review and one-click installation of every generated persona into the selected client project."
+    "Fixes quota-exceeded errors when adding multiple image-rich personas.",
+    "Stores each portrait and evidence dossier only once instead of duplicating large data.",
+    "Requests extended local storage for persona libraries and scale-run evidence.",
+    "Retains multi-audience generation, separate GWI interpretation and shared Meltwater context."
   ]
 }
