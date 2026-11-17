@@ -1,16 +1,16 @@
 {
-  "version": "0.6.3",
-  "engineVersion": "0.1.8",
-  "publishedAt": "2026-11-17T00:48:29.437Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.6.3",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.6.3/proxy-0.6.3.zip",
-  "sha256": "42914fe9a9f4dc0fc665dbe760b319eb7311ed60266d4557214cc845a74d5fc9",
+  "version": "0.6.4",
+  "engineVersion": "0.1.9",
+  "publishedAt": "2026-11-17T01:15:09.000Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.6.4",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.6.4/proxy-0.6.4.zip",
+  "sha256": "f2a557b639a84c91462891ced7bf87a4eaa4cbf00180af7651773a396f4b4a11",
   "minimumChromeVersion": "120",
   "notes": [
-    "Follows actionable product and retailer recommendations directly from editorial articles before returning to search.",
-    "Moves commerce journeys from catalog browsing into verified product evaluation, option selection and add-to-bag behavior.",
-    "Prevents recommendation cards, cart controls, logos and unrelated products from masquerading as product imagery.",
-    "Adds a local Project Setup page and optional project.proxy.json protocol beside each project’s personas folder.",
-    "Adds evidence-linked source-selection cues so publisher and creator choices can be driven by persona trust and taste."
+    "Adds Suggest fields from a brief to Project Setup using the configured local OpenAI engine.",
+    "Supports pasted briefs and PDF, DOCX, TXT, Markdown, CSV, XLSX or JSON attachments.",
+    "Shows every suggested field for review and never applies or saves changes automatically.",
+    "Keeps project framing separate from persona evidence and surfaces unresolved setup questions.",
+    "Adds project-level research questions that are observed silently rather than treated as persona instructions."
   ]
 }
