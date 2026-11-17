@@ -1,16 +1,15 @@
 {
-  "version": "0.6.4",
+  "version": "0.6.5",
   "engineVersion": "0.1.9",
-  "publishedAt": "2026-11-17T01:15:09.000Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.6.4",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.6.4/proxy-0.6.4.zip",
-  "sha256": "f2a557b639a84c91462891ced7bf87a4eaa4cbf00180af7651773a396f4b4a11",
+  "publishedAt": "2026-11-17T01:59:43Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.6.5",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.6.5/proxy-0.6.5.zip",
+  "sha256": "ab4af43217ff0e6c5743f448be7ce52eb7349920bcd09fc4d336b97a178377e2",
   "minimumChromeVersion": "120",
   "notes": [
-    "Adds Suggest fields from a brief to Project Setup using the configured local OpenAI engine.",
-    "Supports pasted briefs and PDF, DOCX, TXT, Markdown, CSV, XLSX or JSON attachments.",
-    "Shows every suggested field for review and never applies or saves changes automatically.",
-    "Keeps project framing separate from persona evidence and surfaces unresolved setup questions.",
-    "Adds project-level research questions that are observed silently rather than treated as persona instructions."
+    "Fixes project-context saving when a project folder’s real name differs in capitalization, spacing or underscores.",
+    "Reconnects stale root-folder permissions directly from Project Setup without clearing entered fields.",
+    "Requests write access when connecting the project root so project.proxy.json can be saved reliably.",
+    "Retains the AI-assisted brief-to-project setup introduced in 0.6.4."
   ]
 }
