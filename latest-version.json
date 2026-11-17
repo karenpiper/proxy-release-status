@@ -1,15 +1,16 @@
 {
-  "version": "0.6.1",
-  "engineVersion": "0.1.6",
-  "publishedAt": "2026-11-16T23:32:32.250Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.6.1",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.6.1/proxy-0.6.1.zip",
-  "sha256": "ace6e6477a98f91a4a295684a5ba9bb5220e5749b950f2e170e0372c744c331d",
+  "version": "0.6.2",
+  "engineVersion": "0.1.7",
+  "publishedAt": "2026-11-17T00:21:53.771Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.6.2",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.6.2/proxy-0.6.2.zip",
+  "sha256": "a2a83b729df713ea75f32ac28153d86786476ff915f23c188d6daba83536df0f",
   "minimumChromeVersion": "120",
   "notes": [
-    "Connects the full evidence-linked persona model to channel choice, page behavior and terminal decisions.",
-    "Adds claim review, research-neutral treatments, bounded variation, structured gaps and persona-set comparisons.",
-    "Repairs persona generation so a missing presentation field no longer rejects an otherwise valid evidence model.",
-    "Stores new API keys through standard input rather than exposing them in the process list."
+    "Requires meaningful retail exploration before a brand or product route can be abandoned.",
+    "Stops footer and dormant account language from being misread as a forced signup page.",
+    "Grounds every reported mindset, need, barrier, action, reaction and next question in the specific observed moment.",
+    "Uses direct TikTok navigation with an explicit research-tool fallback when logged-out web access is unavailable.",
+    "Adds evidence-safe merchandise department routing and a redesigned persona card."
   ]
 }
