@@ -1,15 +1,15 @@
 {
-  "version": "0.7.2",
+  "version": "0.7.3",
   "engineVersion": "0.2.2",
-  "publishedAt": "2026-11-17T03:14:06Z",
-  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.7.2",
-  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.7.2/proxy-0.7.2.zip",
-  "sha256": "cdfe70ccd9cff34dbf4ea4b4ba096ce8f37945f60a9395556b5d51ea3bc6860d",
+  "publishedAt": "2026-11-17T03:22:48Z",
+  "releaseUrl": "https://github.com/karenpiper/proxy/releases/tag/v0.7.3",
+  "downloadUrl": "https://github.com/karenpiper/proxy/releases/download/v0.7.3/proxy-0.7.3.zip",
+  "sha256": "f30e00cdc31c098cb988c6bc3953e912e81310e12a47ad8456f066d51a315484",
   "minimumChromeVersion": "120",
   "notes": [
-    "Hides persona creation until the selected project has a saved project context.",
-    "Carries the selected client project into Persona Studio and prevents research imports from replacing it.",
-    "Removes the duplicate study-design dropdown from the run interface.",
-    "Limits generated live-study scopes to journeys PROXY can actually execute in a browser."
+    "Places Project setup or Manage project directly beside the project selector.",
+    "Shows persona management only when personas exist and matches the action-button heights.",
+    "Keeps all run setup hidden until the selected project contains a persona.",
+    "Removes the duplicate study dropdown and combines Research focus and Advanced controls into Run settings."
   ]
 }
